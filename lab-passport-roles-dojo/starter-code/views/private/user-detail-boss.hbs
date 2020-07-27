@@ -1,0 +1,12 @@
+<form action="/edit/{{_id}}" method="post">
+  <input type="text" name="name" value="{{name}}">
+  <input type="text" name="username" value="{{username}}">
+  <label for="role">Role</label>
+  <select name="role" id="role">
+    <option value="{{role}}" selected>{{role}}</option>
+    <option value="Boss">Boss</option>
+    <option value="Dev">Dev</option>
+    <option value="TA">TA</option>
+  </select>
+  <button type="submit">Edit</button>
+</form>

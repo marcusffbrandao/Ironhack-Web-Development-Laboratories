@@ -1,0 +1,15 @@
+.component {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: monospace;
+}
+  

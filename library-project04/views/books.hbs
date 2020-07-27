@@ -1,0 +1,15 @@
+<h1>Check out our Books</h1>
+
+<ul>
+  {{#each books}}
+  <p>
+    <a href="/book/{{this._id}}">{{this.title}}</a>
+    {{#if this.isOwner}}
+    <a href="/books/edit/{{this._id}}" class="edit-button">EDIT</a>
+    {{/if}}
+  </p>
+  {{/each}}
+
+</ul>
+
+  <div id="map"></div>
