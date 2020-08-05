@@ -1,3 +1,3 @@
 # Ironhack-Web-Development-Laboratories
 
-This repository contains the exercises done during Ironhack's Web Development Bootcamp.
+This repository contains the exercises made during Ironhack's Web Development Bootcamp.
